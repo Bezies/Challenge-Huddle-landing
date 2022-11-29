@@ -1,0 +1,82 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #674bb1;
+	background-image: url(images/bg-desktop.svg), url(images/logo.svg);
+	max-width: 1440px;
+	background-image: ;
+	background-repeat: no-repeat, no-repeat;
+	background-position: 0 0, 80px 30px;
+	background-size: 1200px 700px, 200px;
+}
+
+section {
+	display: flex;	
+	justify-content: center;
+	margin-top: 150px;
+	margin-left: 80px;
+	width: 90%;
+}
+
+img {
+	width: 650px;
+}
+
+.text {
+	color: white;
+	width: 35rem;
+	margin: 0 120px;
+}
+
+.text h1 {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	font-size: 2.2em;
+}
+
+.text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+
+button {
+	color: #7a65c0;
+	border-radius: 100px;
+	width: 180px;
+	text-align: center;
+	padding: 12px 0;
+/*	border: 1px solid black;*/
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	box-shadow: -5px 5px 25px #674bb1;
+	cursor: pointer;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: white;
+	font-size: 11px
+}
+
+.attribution a {
+	color: white;
+}
+
+.attribution {
+	margin-right: 10px;
+}
+
+.socialmedia i {
+	color: white;
+	font-size: 20px;
+	margin: 20px 10px;
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 10px;
+
+
+}
